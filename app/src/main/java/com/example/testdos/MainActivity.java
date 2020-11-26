@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
                 switch (position){
                     case 0:
-                        tab.setText("Home");
+                        tab.setText("First Tab");
                         break;
                     case 1:
-                        tab.setText("Account");
+                        tab.setText("Second Tab");
                         break;
                     case 2:
-                        tab.setText("Settings");
+                        tab.setText("Third Tab");
                         break;
                 }
             }

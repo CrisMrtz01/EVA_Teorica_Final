@@ -3,14 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".SettingsFragment">
+    tools:context=".SettingsFragment"
+    android:background="@drawable/two">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Settings Fragment"
+        android:text="Ejemplo"
         android:textSize="40dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:textColor="@color/white">
     </TextView>
 
 </FrameLayout>

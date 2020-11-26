@@ -3,14 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".HomeFragment">
+    tools:context=".HomeFragment"
+    android:background="@drawable/three">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Home Fragment"
+        android:text="Cristian Martínez SIS21B"
         android:textSize="40dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:textColor="@color/white">
     </TextView>
+
 
 </FrameLayout>
